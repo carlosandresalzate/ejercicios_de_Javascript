@@ -8,12 +8,19 @@ Con esto espero desarrollar mejor mis habilidades en JavaScript y lógica de pro
 Crear una variable que reciba un string y retorne la misma, pero agregando después de cada carácter su índice correspondiente. Es decir, que retorne el mismo string transformado de la siguiente forma.
 
 ```
-
     En el indice 0 posición 1 es igual a la letra C
     En el indice 1 posición 2 es igual a la letra a
     En el indice 2 posición 3 es igual a la letra r
     En el indice 3 posición 4 es igual a la letra l
     En el indice 4 posición 5 es igual a la letra o
     En el indice 5 posición 6 es igual a la letra s
+```
 
+## Ejercicio N° 2
+
+Escriba una función que reciba dos parámetros del tipo string. La función deberá retornar la cantidad de apariciones que tiene el segundo parámetro en el primer parámetro.
+
+```js
+console.log(contarOcurrencias("sarasa" "a")); // imprime 3
+console.log(contarOcurrencias("sarasa" "z")); // imprime 0
 ```
