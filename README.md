@@ -24,3 +24,12 @@ Escriba una función que reciba dos parámetros del tipo string. La función deb
 console.log(contarOcurrencias("sarasa" "a")); // imprime 3
 console.log(contarOcurrencias("sarasa" "z")); // imprime 0
 ```
+
+## Ejercicio N° 3
+
+hacer una función que reciba un string y retorne el mismo string pero agregando depues de cada caracter su indice. Es decir, que retorne el mismo string de la siguiente forma:
+
+```js
+console.log(agregarIndice("kawabonga")); // imprime "k0a1w2a3b4o5n6g7a8"
+console.log(agregarIndice("casa")); // imprime "c0a1s2a3"
+```
