@@ -78,6 +78,9 @@ console.log(transformarATipos([function(){}, true])); // imprime ["function", "b
 
 ## Ejercicios N° 6
 
+<details>
+<summary>📚 Objects</summary>
+
 Hacer una función que reciba un objeto y retorne un array con todos los valores de sus propiedades como elementos.
 
 ```js
@@ -85,3 +88,5 @@ console.log(aArrayDeValores({a: 1, b: "z", c: 3})); // imprime [1, "z", 3]
 console.log(aArrayDeValores({a: "f", b: true})); // imprime ["f", true]
 
 ```
+
+</details>
