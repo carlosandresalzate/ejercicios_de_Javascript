@@ -1,3 +1,7 @@
+/**
+ * @author Carlos Andres
+ */
+
 let arrayUno = [1, "casa", {}];
 let arrayDos = [function(){}, true]
 
