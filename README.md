@@ -75,3 +75,13 @@ console.log(transformarATipos([1, "casa", {}])); // imprime ["number", "string",
 console.log(transformarATipos([function(){}, true])); // imprime ["function", "boolean"]
 ```
 </details>
+
+## Ejercicios N° 6
+
+Hacer una función que reciba un objeto y retorne un array con todos los valores de sus propiedades como elementos.
+
+```js
+console.log(aArrayDeValores({a: 1, b: "z", c: 3})); // imprime [1, "z", 3]
+console.log(aArrayDeValores({a: "f", b: true})); // imprime ["f", true]
+
+```
