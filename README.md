@@ -90,3 +90,18 @@ console.log(aArrayDeValores({a: "f", b: true})); // imprime ["f", true]
 ```
 
 </details>
+
+## Ejercicio N° 7
+
+<details>
+<summary>📚 Objects</summary>
+
+Hacer una función que reciba un objeto el cual posee propiedades con valores de string como resultado de la concatenación de todos los valores de las propiedades del objeto. 
+
+```js
+console.log(concatenarObj({a: "h", b: "o", c: "l", d: "a"})) // imprime "hola"
+console.log(concatenarObj({z: "sa", x: "ra", y: "sa"})) // imprime "sarasa"
+
+```
+
+</details>
