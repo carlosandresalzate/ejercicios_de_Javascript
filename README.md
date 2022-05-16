@@ -105,3 +105,18 @@ console.log(concatenarObj({z: "sa", x: "ra", y: "sa"})) // imprime "sarasa"
 ```
 
 </details>
+
+## Ejercicio N° 8
+
+<details>
+<summary>📚 arrays</summary>
+
+Hacer una función que reciba un array de palabras(strings) que retorne un array con la cantidad de vocales de cada palabra.
+
+```js
+console.log(concatenarObj(["Sigueme", "El", "Blanco", "Conejo"])) // imprime "hola"
+console.log(concatenarObj(["Tortuga", "Otro","Viernes"])) // imprime "sarasa"
+
+```
+
+</details>
