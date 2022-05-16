@@ -22,9 +22,17 @@ function aArrayDeValores(param1) {
     */
 
     // Usando for of con Object.values(aquí se pasa el parámetro)
+/*     
     for(val of Object.values(param1)) {
         salida.push(val)
     }
+ */
+
+    // Usando for in
+    for(propiedad in param1){
+        salida.push(param1[propiedad]);
+    }
+
     console.log(salida)
 }
 
