@@ -114,9 +114,36 @@ console.log(concatenarObj({z: "sa", x: "ra", y: "sa"})) // imprime "sarasa"
 Hacer una función que reciba un array de palabras(strings) que retorne un array con la cantidad de vocales de cada palabra.
 
 ```js
-console.log(concatenarObj(["Sigueme", "El", "Blanco", "Conejo"])) // imprime "hola"
-console.log(concatenarObj(["Tortuga", "Otro","Viernes"])) // imprime "sarasa"
+console.log(contarVocales(["follow", "the", "white", "rabbit"])) // imprime [2, 1, 2, 2]
+console.log(contarVocales(["Sigueme", "el", "Blanco", "Conejo"])) // imprime [4, 1, 2, 3]
 
 ```
+El resultado o salida es el conteo de las vocales por cada string en el array de strings
+
+</details>
+
+## Ejercicio N° 9
+
+<details>
+<summary>📚 arrays</summary>
+
+Crear una función que replique el funcionamiento de [Array reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse), o dicho de otra manera, codificar una función que reciba como parámetro un array, e invierta el orden de los elementos.
+
+```sh
+> let myArray = ["abc", "def", "ghi", "jkl"];
+undefined
+> reverse(myArray);
+true
+> console.log(myArray);
+['jkl', 'ghi', 'def', 'abc']
+undefined
+> reverse("esto no es un array");
+false
+> 
+```
+
+Tener en cuenta que si bien al invocar esta función se obtiene un resultado similar que al aplicar .reverse(), ademas se pide una funcionalidad adicional:
+* retornar **true**: en el caso que el parámetro especificado sea un Array
+* retornar **false**: en el caso que el parámetro especificado NO sea un Array.
 
 </details>
