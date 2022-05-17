@@ -1,7 +1,8 @@
 const vocales = ['a', 'e', 'i', 'o', 'u'];
 
 let miArray1 = ["Sigueme", "el", "Blanco", "Conejo"];
-let miArray2 = ["Tortuga", "Otro","Viernes"];
+let miArray2 = ["Tortuga", "otro","Viernes"];
+let arrayEntrada = ["follow", "the", "white", "rabbit"];
 
 
 function contarVocales(param1, param2) {
@@ -34,3 +35,4 @@ function contarVocales(param1, param2) {
 
 contarVocales(miArray1, vocales);
 // contarVocales(miArray2, vocales);
+contarVocales(arrayEntrada, vocales);
