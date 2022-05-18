@@ -151,7 +151,9 @@ Tener en cuenta que si bien al invocar esta función se obtiene un resultado sim
 ## Ejercicio N° 10
 <details>
 <summary>📚 Objects</summary>
+
 #### Parte 1
+
 <details>
 
 Escribir una función que reciba un objeto como primer parámetro _obj_ y un array _filtros_ de _strings_ como segundo parámetro. Dado un objeto particular, la función **filtrarKeys** deberá retornar una lista de las propiedades ( es decir, una lista de keys) que contenga alguno de los elementos del array _filtros_ en su nombre. Es decir, debería comportarse de la siguiente manera:
