@@ -147,3 +147,43 @@ Tener en cuenta que si bien al invocar esta función se obtiene un resultado sim
 * retornar **false**: en el caso que el parámetro especificado NO sea un Array.
 
 </details>
+
+## Ejercicio N° 10
+<details>
+<summary>📚 Objects</summary>
+#### Parte 1
+<details>
+
+Escribir una función que reciba un objeto como primer parámetro _obj_ y un array _filtros_ de _strings_ como segundo parámetro. Dado un objeto particular, la función **filtrarKeys** deberá retornar una lista de las propiedades ( es decir, una lista de keys) que contenga alguno de los elementos del array _filtros_ en su nombre. Es decir, debería comportarse de la siguiente manera:
+
+```sh
+filtrarKeys({ "a":1, "b":2, "c":3 }, ["a"])
+["a"]
+```
+
+</details>
+
+#### Parte 2
+<details>
+
+Agregar a la función **filtrarKeys** un tercer parámetro opcional que indique si se desea filtrar por inclusion o exclusion. Por defecto, es decir si ningún parámetro es especificado, la función deberá filtrar por inclusion.
+
+```sh
+filtrarKeys({ "a":1, "b":2, "c":3 }, ["a", "c"], true)
+["b"]
+filtrarKeys({ "a":1, "b":2, "c":3 }, ["a", "b", "c"], true)
+[]
+filtrarKeys({ "a":1, "b":2, "c":3 }, ["c"], true)
+["a", "b"]
+filtrarKeys({ "a":1, "b":2, "c":3 }, ["c"])
+["c"]
+```
+</details>
+
+##### Recursos
+
+* [Working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+* [Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+* [Objetos y sus keys](https://gist.github.com/a0viedo/57e0ffcc00cb5e5abc23)
+
+</details>
