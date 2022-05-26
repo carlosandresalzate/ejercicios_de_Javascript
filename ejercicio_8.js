@@ -1,3 +1,7 @@
+/**
+ * @author Carlos andres
+ * 
+ */
 const vocales = ['a', 'e', 'i', 'o', 'u'];
 
 let miArray1 = ["Sigueme", "el", "Blanco", "Conejo"];
