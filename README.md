@@ -189,3 +189,19 @@ filtrarKeys({ "a":1, "b":2, "c":3 }, ["c"])
 * [Objetos y sus keys](https://gist.github.com/a0viedo/57e0ffcc00cb5e5abc23)
 
 </details>
+
+## Ejercicio N° 11
+
+<details>
+<summary>📚 Arrays</summary>
+
+Escribir una función _invertirYConcatenarArrays_ que reciba dos arrays, arr1 y arr2. Debe retornar **un único array** (una  nuevo) con todos los elementos de arr1 y arr2 pero en orden inverso.
+
+```js
+invertirYconcatenarArrays(['a', 'b', 'c' ], ['x', 'y', 'z'])
+['c', 'b', 'a', 'z', 'y', 'x']
+```
+
+Escribir dos versiones, una con **forEach** y la otra con for. **No esta permitido utilizar cualquier otro método nativo de arrays**(especialmente reverse)
+
+</details>
