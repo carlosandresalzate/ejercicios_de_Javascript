@@ -222,8 +222,8 @@ nativo de arrays**(especialmente reverse)
 
 ## Ejercicio N° 12
 
-<!-- <details>
-<summary>📚 Objects </summary> -->
+<details>
+<summary>📚 Objects </summary>
 
 Eres contratado por una empresa para desarrollar un algoritmo el cual permita clasificar a sus usuarios. Cada usuario es
 representado como un objeto de javascript y sus keys son la propiedad del mismo. Por ejemplo:
@@ -281,8 +281,4 @@ let filtro2 = {
 filtrarUsuarios(users, filtro2) // retorna un array vació []
 
 ```
-
-
-
-
-<!-- </details> -->
+</details>
