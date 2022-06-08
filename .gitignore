@@ -1440,8 +1440,4 @@ FodyWeavers.xsd
 
 ### personal rules
 _*.js
-
-# End of https://www.toptal.com/developers/gitignore/api/adobe,angular,bower,c,c++,chocolatey,cmake,dreamweaver,firebase,font,fontforge,git,gpg,grunt,jupyternotebooks,kate,kdevelop4,less,linux,lua,microsoftoffice,node,prepros,python,qml,qt,qtcreator,react,reactnative,sass,stylus,sublimetext,venv,vim,virtualenv,visualstudio,visualstudiocode,vue,vuejs,windows,yarn,yeoman,zsh
-
-# Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
-
+js-training/
