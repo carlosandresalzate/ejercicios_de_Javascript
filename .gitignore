@@ -1441,3 +1441,4 @@ FodyWeavers.xsd
 ### personal rules
 _*.js
 js-training/
+package-lock.json
