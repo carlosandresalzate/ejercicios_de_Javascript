@@ -23,7 +23,7 @@ function invertirYConcatenarArrays(arr1, arr2) {
 
   salida = reverse.split('')
   console.log(salida)
-  return
+  return salida
 }
 
 invertirYConcatenarArrays(array1, array2)

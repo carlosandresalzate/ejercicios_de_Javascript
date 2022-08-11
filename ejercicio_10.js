@@ -23,6 +23,7 @@ function filtrarKeys(obj, array, exclusion = false) {
       if (filtro === -1) {
         return val
       }
+      return salida
     })
   } else {
     salida = propObj.filter((val) => {

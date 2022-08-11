@@ -2,17 +2,16 @@
  * @author Carlos Andres
  */
 
-let myObject1 = {a: "h", b: "o", c: "l", d: "a"};
-let myObject2 = {z: "sa", x: "ra", y: "sa"};
+const myObject1 = { a: 'h', b: 'o', c: 'l', d: 'a' }
+const myObject2 = { z: 'sa', x: 'ra', y: 'sa' }
 
 function concatenarObj(param1) {
-    let salida;
-    for(val in param1) {
-        salida = Object.values(param1).join('');
-    }
-    return salida;
+  let salida
+  for (const val in param1) {
+    salida = Object.values(param1).join('')
+  }
+  return salida
 }
 
-console.log(concatenarObj(myObject1));
-console.log(concatenarObj(myObject2));
-
+console.log(concatenarObj(myObject1))
+console.log(concatenarObj(myObject2))

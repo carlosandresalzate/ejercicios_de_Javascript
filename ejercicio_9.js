@@ -2,21 +2,22 @@
  * @author Carlos andres
  */
 
-let myArray = ["abc", "def", "ghi", "jkl"];
-let string = "esto no es un array";
+const myArray = ['abc', 'def', 'ghi', 'jkl']
+const string = 'esto no es un array'
 
 function reverse(param1) {
-    let salida = Array.isArray(param1);
+  const salida = Array.isArray(param1)
 
-    if(salida) {
-        let reversed = param1.reverse();
-        console.log(salida);
-        return reversed;
-    } else {
-        console.log(salida);
-    }
-    return salida;
+  if (salida) {
+    const reversed = param1.reverse()
+    console.log(salida)
+    return reversed
+  } else {
+    console.log(salida)
+  }
+  return salida
 }
 
-reverse(myArray);
-console.log(myArray);
+reverse(myArray)
+reverse(string)
+console.log(myArray)
