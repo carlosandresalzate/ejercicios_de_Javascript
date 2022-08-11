@@ -2,39 +2,36 @@
  * @author Carlos Andres
  */
 
-let objeto_1 = {a: 1, b: "z", c: 3};
-let objeto_2 = {a: "f", b: true};
+const objetoUno = { a: 1, b: 'z', c: 3 }
+const objetoDos = { a: 'f', b: true }
 
 function aArrayDeValores(param1) {
-    let salida = new Array();
-    // Usando for in
-    /* 
-    for(val in param1){
-        salida.push(param1[val]);
-    }
-     */
-    // Usando Object.keys(aquí se pasa el parámetro)
-    
-    /*
-    for(val of Object.keys(param1)) {
-        salida.push(param1[val]);
-    } 
-    */
+  const salida = []
+  // Usando for in
 
-    // Usando for of con Object.values(aquí se pasa el parámetro)
-/*     
-    for(val of Object.values(param1)) {
-        salida.push(val)
-    }
+  for (const val in param1) {
+    salida.push(param1[val])
+  }
+
+  // Usando Object.keys(aquí se pasa el parámetro)
+
+  /* for (const val of Object.keys(param1)) {
+    salida.push(param1[val])
+  } */
+
+  // Usando for of con Object.values(aquí se pasa el parámetro)
+
+  /*  for (const val of Object.values(param1)) {
+    salida.push(val)
+  }
  */
+  // Usando for in
+  /* for (const propiedad in param1) {
+    salida.push(param1[propiedad])
+  } */
 
-    // Usando for in
-    for(propiedad in param1){
-        salida.push(param1[propiedad]);
-    }
-
-    console.log(salida)
+  console.log(salida)
 }
 
-aArrayDeValores(objeto_1);
-aArrayDeValores(objeto_2);
+aArrayDeValores(objetoUno)
+aArrayDeValores(objetoDos)

@@ -2,26 +2,24 @@
  * @author Carlos Andres
  */
 
-let arrayUno = [1, "casa", {}];
-let arrayDos = [function(){}, true]
+const arrayUno = [1, 'casa', {}]
+const arrayDos = [function () {}, true]
 
 function transformarATipos(param1) {
+  // usando map
+  /*
+  let newArray = param1.map((val) => typeof val);
+  console.log(newArray);
+  */
 
-    // usando map
-/* 
-    let newArray = param1.map((val) => typeof val);
-    console.log(newArray);
-     */
+  // usando forEach
+  const nuevoArray = []
+  param1.forEach((valor, indice, array) => {
+    nuevoArray.push(typeof valor)
+  })
 
-    // usando forEach
-    let nuevoArray = new Array();
-    param1.forEach((valor, indice, array) => {
-        nuevoArray.push(typeof valor);
-    });
-
-    console.log(nuevoArray);
-
+  console.log(nuevoArray)
 }
 
-transformarATipos(arrayUno);
-transformarATipos(arrayDos);
+transformarATipos(arrayUno)
+transformarATipos(arrayDos)
