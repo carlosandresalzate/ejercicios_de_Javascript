@@ -282,3 +282,21 @@ filtrarUsuarios(users, filtro2) // retorna un array vació []
 
 ```
 </details>
+
+## Ejercicio N° 13
+
+<details>
+<summary>📚 arrays</summary>
+
+Escribir una función _imprimerImpares_ que reciba un array e imprima por pantalla todos sus elementos de indice impar.
+**Por ejemplo**:
+
+```js
+console.log(imprimirImpares(["p1", "i1", "p2", "i2", "p3"])) // imprime "i1", "i2"
+
+```
+La función imprimerImpares debe utilizar el método forEach de arrays. Es **mandatorio** leer la [documentación](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) sobre _forEach_ al menos 2 veces.
+
+**Bonus**: Escribir la función _imprimirImpares_ pero en vez de imprimir los elementos impares que los retorne en un array nuevo. 
+
+</details>
