@@ -1442,3 +1442,5 @@ FodyWeavers.xsd
 _*.js
 js-training/
 package-lock.json
+labs.js
+.prettierignore
