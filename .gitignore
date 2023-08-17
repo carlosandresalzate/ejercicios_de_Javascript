@@ -1444,3 +1444,4 @@ js-training/
 package-lock.json
 labs.js
 .prettierignore
+.vscode/
