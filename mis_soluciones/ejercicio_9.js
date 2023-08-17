@@ -5,19 +5,28 @@
 const myArray = ['abc', 'def', 'ghi', 'jkl']
 const string = 'esto no es un array'
 
-function reverse(param1) {
-  const salida = Array.isArray(param1)
+function reversed(param1) {
+	const isArray = Array.isArray(param1)
 
-  if (salida) {
-    const reversed = param1.reverse()
-    console.log(salida)
-    return reversed
-  } else {
-    console.log(salida)
-  }
-  return salida
+	function reversing(elem) {
+		const newArray = []
+		for (let i = elem.length; i > 0; i--) {
+			let item = elem.pop()
+			newArray.push(item)
+		}
+		return Object.assign(param1, newArray)
+	}
+
+	if (isArray) {
+		reversing(param1)
+		console.log(isArray)
+		return isArray
+	} else {
+		console.log(isArray)
+		return isArray
+	}
 }
 
-reverse(myArray)
-reverse(string)
+reversed(myArray)
+reversed(string)
 console.log(myArray)
