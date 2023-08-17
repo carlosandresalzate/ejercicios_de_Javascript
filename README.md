@@ -300,3 +300,5 @@ La función imprimerImpares debe utilizar el método forEach de arrays. Es **man
 **Bonus**: Escribir la función _imprimirImpares_ pero en vez de imprimir los elementos impares que los retorne en un array nuevo. 
 
 </details>
+
+Próximamente ....
