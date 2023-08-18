@@ -301,4 +301,3 @@ La función imprimerImpares debe utilizar el método forEach de arrays. Es **man
 
 </details>
 
-Próximamente ....
