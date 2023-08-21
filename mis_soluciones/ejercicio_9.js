@@ -7,7 +7,7 @@ const arr = ['hola', 'material girl', 'anatómico', 'pepito', 'rdr2']
 const string = 'esto no es un array'
 
 /* ********** */
-/* Solucion 1 */
+/* Solución 1 */
 /* ********** */
 /* 
 function reverse(param1) {
@@ -31,7 +31,7 @@ console.log(myArray)
 reverse(string) */
 
 /* ********** */
-/* Solucion 2 */
+/* Solución 2 */
 /* ********** */
 
 function reverse(param1) {
@@ -58,3 +58,4 @@ function reverse(param1) {
 reverse(myArray)
 reverse(string)
 console.log(myArray)
+console.log(arr)

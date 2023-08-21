@@ -1,15 +1,19 @@
 {
-  "env": {
-    "browser": true,
-    "commonjs": true,
-    "es2021": true,
-    "node": true
-  },
-  "extends": ["standard"],
-  "parserOptions": {
-    "ecmaVersion": "latest"
-  },
-  "rules": {
-    "space-before-function-paren": "off"
-  }
+	"root": true,
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": [
+		"standard"
+	],
+	"parserOptions": {
+		"ecmaVersion": "latest"
+	},
+	"rules": {
+		"space-before-function-paren": "off",
+		"allowIndentationTabs": true
+	}
 }
