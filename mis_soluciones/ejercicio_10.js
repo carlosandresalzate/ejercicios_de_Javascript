@@ -17,13 +17,12 @@ function filtrarKeys(obj, array, exclusion = false) {
   let salida
   const propObj = Object.keys(obj)
 
-  if (exclusion === true) {
+  if (exclusion) {
     salida = propObj.filter((val) => {
       const filtro = array.indexOf(val)
       if (filtro === -1) {
         return val
       }
-      return salida
     })
   } else {
     salida = propObj.filter((val) => {
@@ -31,7 +30,6 @@ function filtrarKeys(obj, array, exclusion = false) {
       return filtro
     })
   }
-
   return salida
 }
 
